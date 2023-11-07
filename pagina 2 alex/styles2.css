@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+body {
+  min-width: 380px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.adso {
+  color: #2657dd;
+  margin-left: 40px;
+  display: flex;
+}
+
+.ph {
+  text-decoration: none;
+  color: white;
+  padding-inline: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ph:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.textoHeader {
+  display: flex;
+  font-size: 18px;
+  padding: 8px;
+  color: white;
+}
+
+h2 {
+  padding: 5px;
+  color: white;
+}
+
+header {
+  z-index: 150;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  -webkit-text-stroke: -2px;
+  align-items: center;
+}
+
+.redes {
+  margin-right: 100px;
+}
+
+.bienvenida {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://profile.es/wp-content/media/que-son-paradigmas-programacion.jpg);
+}
+
+.textoBienvenida {
+  text-align: center;
+  width: 50%;
+  height: 400px;
+  z-index: 100;
+  padding-top: 20%;
+  color: rgb(255, 255, 255);
+}
+
+.nombre {
+  color: #2657dd;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.fondo-negro {
+  opacity: 0.7;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+.tituloBienvenida {
+  letter-spacing: 7px;
+}
+
+.ir-portafolio {
+  border-radius: 40px;
+  color: white;
+  background: none;
+  padding: 10px 20px;
+  border: 2px solid white;
+  transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.5s;
+}
+
+.ir-portafolio:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  text-decoration: line-through;
+  transform: scale(1.2);
+}
+
+#inicio {
+  color: #2657dd;
+}
+
+#inicio:hover {
+  color: rgb(241, 143, 14);
+  text-decoration: overline;
+}
+
+#youtube:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+#youtube {
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#face:hover {
+  color: rgb(23, 70, 223);
+  transform: scale(1.2);
+}
+
+#face {
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#insta {
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#insta:hover {
+  color: rgb(223, 23, 223);
+  transform: scale(1.2);
+}
+
+.sobreMi {
+  justify-content: space-between;
+  display: flex;
+  background-color: white;
+  height: 80vh;
+  width: 100%;
+}
+
+.imagenMia {
+  margin-left: 10%;
+  margin-top: 10vh;
+  height: 60vh;
+  width: 25%;
+}
+
+.imgYo {
+  border-radius: 30px;
+  border: 6px solid rgb(65, 60, 60);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.textoSobremi {
+  margin-right: 15%;
+  margin-top: 10vh;
+  width: 40%;
+  height: 60%;
+}
+
+.parrafo-sobre-mi {
+  color: black;
+  padding: 0;
+}
+
+.titulo-sobre-mi {
+  padding: 0;
+  color: black;
+  text-decoration: underline 5px gray;
+}
+
+.descargar-cv {
+  width: 150px;
+  height: 35px;
+  margin-top: 40px;
+  border: 2px gray solid;
+  background: none;
+  border-radius: 40px;
+  transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.5s;
+}
+
+.descargar-cv:hover {
+  color: white;
+  background-color: #2657dd;
+  transform: scale(1.2);
+}
+
+.servicios {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-column-gap: 65px;
+  grid-row-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.titulo-mis-servicios {
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+  color: black;
+  text-decoration: underline 5px gray;
+}
+
+.contenedorServicios {
+  text-align: center;
+
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  transition: transform 0.5s;
+}
+
+.contenedorServicios:hover {
+  transform: scale(1.1);
+}
+
+.contenedorServicio {
+  background-color: rgba(243, 242, 242, 255);
+  text-align: center;
+}
+
+#iconoCodigo {
+  height: 50px;
+  margin-top: 40px;
+  font-size: 50px;
+  color: black;
+  padding: 10px 20px;
+  border: 5px solid gray;
+  border-radius: 100px;
+  background-color: #b4bcd4;
+}
+
+.nose {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 50px;
+  padding-inline: 50px;
+}
+
+body {
+  background-image: url(./images/fondomain.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.habilidades {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-section {
+  text-align: center;
+  width: 40%;
+  position: absolute;
+  background-color: rgba(12, 12, 12, 0.808);
+  padding: 30px;
+  transition: transform 0.3s;
+}
+
+.parallax-section:hover {
+  transform: scale(0.9);
+}
+
+.barra {
+  background-color: #cccccc5e;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.porcentaje {
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 10px;
+  color: white;
+}
+
+#iconoPorcentaje {
+  color: white;
+}
+
+.proyectos {
+  text-align: center;
+  height: 160vh;
+  background-color: white;
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hijoProyecto {
+  display: grid;
+  grid-column-gap: 25px;
+  grid-row-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contenedorProyecto {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  border: solid 1px black;
+  overflow: hidden;
+}
+
+.titulo-mis-proyectos {
+  padding-top: 80px;
+  margin-bottom: 40px;
+  color: black;
+  text-decoration: underline 5px gray;
+}
+
+.proyecto1 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.barraInferior {
+  position: absolute;
+  bottom: -63px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  text-align: left;
+  transition: bottom 0.3s;
+}
+
+.contenedorProyecto:hover .barraInferior {
+  bottom: 0;
+}
+
+.contenedorProyecto:hover .proyecto1 {
+  filter: grayscale(0%);
+}
+
+.contacto {
+  align-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(243, 242, 242, 255);
+}
+
+.titulo-contacto {
+  padding-bottom: 20px;
+  text-align: center;
+  padding-top: 30px;
+  color: black;
+  text-decoration: underline 5px gray;
+  background-color: rgba(243, 242, 242, 255);
+}
+
+.datos-contacto {
+  margin-left: 10%;
+  height: 75%;
+  width: 80%;
+}
+
+.datos-nombre {
+  font-size: 15px;
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 22px;
+  height: 50px;
+  padding: 10px 15px;
+  width: 45%;
+}
+
+.datos-correo {
+  font-size: 15px;
+  border: 1px solid gray;
+  border-radius: 22px;
+  height: 50px;
+  padding: 10px 15px;
+  width: 45%;
+}
+
+.datos-tema {
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-radius: 22px;
+  height: 50px;
+  padding: 10px 15px;
+}
+
+.contenedor-mensaje {
+  display: flex;
+  width: 100%;
+}
+
+.datos-mensaje {
+  resize: none;
+  padding: 10px 15px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid gray;
+  border-radius: 22px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.enviar-mensaje {
+  width: 150px;
+  height: 35px;
+  margin-top: 30px;
+  border: 2px gray solid;
+  background: none;
+  border-radius: 40px;
+  transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.5s;
+}
+
+.enviar-mensaje:hover {
+  color: white;
+  background-color: #768dce;
+  transform: scale(1.2);
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  height: 80px;
+  background-color: black;
+}
+
+.proyectos-letra-barra {
+  font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  .adso {
+    padding: 0;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-left: 0px;
+  }
+
+  header {
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .ph {
+    padding-inline: 3px;
+  }
+
+  .textoHeader {
+    padding: 0px;
+    font-size: 8px;
+  }
+  .redes {
+    display: flex;
+    margin-right: 0px;
+  }
+
+  .textoSobremi {
+    font-size: 10px;
+  }
+
+  #youtube {
+    padding-inline: 3px;
+  }
+
+  #face {
+    padding-inline: 3px;
+  }
+
+  #insta {
+    padding-inline: 3px;
+  }
+
+  .sobreMi {
+    width: 100%;
+  }
+
+  .imgYo {
+    height: 80%;
+  }
+
+  .descargar-cv {
+    position: absolute;
+    margin-left: -160px; 
+    margin-top: -60px;
+  }
+
+  .servicios {
+    grid-template-columns: 1fr;
+  }
+
+  .proyectos {
+    height: 100%;
+    font-size: 10px;
+  }
+
+  .hijoProyecto {
+    padding-bottom: 20px;
+  }
+
+  .proyectos-letra-barra {
+    font-size: 14px;
+  }
+}
